@@ -30,7 +30,7 @@ export default class ModalPortal extends Component {
     defaultStyles: PropTypes.shape({
       content: PropTypes.object,
       overlay: PropTypes.object
-    }),
+    }).isRequired,
     style: PropTypes.shape({
       content: PropTypes.object,
       overlay: PropTypes.object
